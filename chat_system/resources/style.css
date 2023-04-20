@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url(https://wallpapercave.com/wp/wp4410714.jpg);
+}
+
+#wrapper {
+    border-radius: 4%;
+    width: 1000px;
+    margin: auto auto;
+    background: #F4F3E8;
+    padding: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.chat_wrapper {
+    width: 70%;
+    margin: 1% auto;
+    background: #fff;
+}
+
+#chat {
+    /* border-radius: 1rem; */
+    min-height: 400px;
+    height: 400px;
+    overflow: auto;
+    border: 1px solid #b3b3b3;
+    padding: 10px;
+}
+
+.textarea {
+    width: 97%;
+    border: 2px solid #242222;
+    margin: 10px;
+    border-radius: 1rem;
+}
+
+.single-msg {
+    padding: 5px 0px 5px 0px;
+    border-bottom: 1px solid #b3b3b3;
+}
+
+.single-msg span {
+    float: right;
+}
